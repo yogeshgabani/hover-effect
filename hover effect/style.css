@@ -1,0 +1,402 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+body {
+    overflow-x: hidden;
+}
+.over-flow {
+    overflow: hidden;
+}
+.container {
+    max-width: 1350px;
+    margin: auto;
+}
+a {
+    text-decoration: none;
+}
+.d-flex {
+    display: flex;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-evenly {
+    justify-content: space-evenly;
+}
+.justify-around {
+    justify-content: space-around;
+}
+.align-center {
+    align-items: center;
+}
+.align-end {
+    align-items: end;
+}
+.align-start {
+    align-items: start;
+}
+.text-center {
+    text-align: center;
+}
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+ul{
+    list-style: none;
+}
+.mt-100 {
+    margin-top: 100px;
+}
+.mt-20 {
+    margin-top: 20px;
+}
+.pt-100 {
+    padding-top: 100px;
+}
+.pb-100 {
+    padding-bottom: 100px;
+}
+.px-100 {
+    padding: 0 100px;
+}
+.gap-20 {
+    gap: 20px;
+}
+.card-main{
+    border-radius: 30px;
+    transition: .3s;
+    position: relative;
+}
+.img-one {
+    width: 400px;
+    height: 400px;
+    border: 2px solid black;
+    transition: .3s;
+}
+
+.card-main{
+    width: max-content;
+    overflow: hidden;
+    padding: 10px;
+}
+.card-main:hover img {
+    transform: scale(1.1);
+}
+
+.cart-btn{
+    position: absolute;
+    bottom: -165px;
+    transition: 1s;
+    color: #fff;
+    text-align: center;
+}
+.cart-btn h4 {
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+.cart-btn p {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.card-main:hover .cart-btn{
+    bottom: 20px;
+}
+.add-btn {
+    background-color: rgb(168, 5, 68);
+    font-size: 20px;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 0.3s;
+}
+.add-btn:hover {
+    background-color: transparent;
+    border: 2px solid rgb(168, 5, 68);
+    color: rgb(168, 5, 68);
+}
+.heart-icon {
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: -20px;
+    transition: .3s;
+}
+.card-main:hover .heart-icon {
+    left: 20px;
+}
+.icon li i {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    background: #333;
+    border-radius: 50%;
+    font-size: 30px;
+    transition: 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.icon li {
+    padding: 10px;
+}
+.icon li i:hover {
+    color: #ffee10;
+    border: 2px solid #ffee10;
+    box-shadow: 0 0 15px #ffee10;
+    transform: rotate(360deg);
+    cursor: pointer;
+}
+.img-class {
+    position: relative;
+    overflow: hidden;
+}
+
+
+.img {
+    width: 400px;
+    height: 400px;
+}
+.img-class{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+.heading-one h2{
+    font-size: 40px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    background-color: aquamarine;
+}
+.heading-one p{
+    font-size: 20px;
+    padding-left: 10px;
+    background-color: rgb(105, 196, 165);
+    padding-top: 20px;
+    padding-bottom: 10px;
+    transition: 0.8s;
+    height: 70px;
+    
+}
+.heading-one {
+    position: absolute;
+    bottom: -75px;
+}
+.img-class:hover .heading-one {
+    bottom: 0;
+    cursor: pointer;
+}
+.img-class:hover .heading-one p {
+    height: 345px;
+    top: 0;
+}
+.bg-pink {
+    background-color: #F7F2F2;
+}
+.card-two {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    background-color: #fff;
+    height: 360px;
+}
+.card-two:hover .image {
+    transform: scale(1.1);
+}
+.quick-btn {
+    background: white;
+    border-radius: 50px;
+    border: 1px solid black;
+    font-size: 30px;
+    padding: 10px 60px;
+    position: absolute;
+    bottom: -60px;
+    left: 50px;
+    transition: .3s;
+}
+.image{
+    transition: .6s;
+    width: 100%;
+}
+.quick-btn:hover {
+    background-color: black;
+    color: white;
+}
+.card-two:hover .quick-btn{
+    bottom: 20px;
+}
+.icon-main i{
+    color: black;
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(231, 225, 225);
+    border-radius: 50%;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.icon-main i:hover{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+.icon-main{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    top: 10px;
+    transition: .3s;
+    right: -50px;
+}
+.card-two:hover .icon-main{
+    right: 20px;
+}
+.price h2{
+    padding-top: 20px;
+    font-size: 20px;
+}
+.price h3{
+    font-size: 20px;
+    color: #E1927F;
+}
+.card-three {
+    position: relative;
+    overflow: hidden;
+    width: 400px;
+    height: 400px;
+    border-radius: 30px;
+}
+.card-three:hover .img-bag-one {
+    transform: scale(1.1);
+}
+.card-three:hover .img-bag-two {
+    transform: scale(1.1);
+}
+.img-bag-one, .img-bag-two {
+    transition: .8s;
+    width: 400px;
+    height: 400px;
+}
+.buy-btn {
+    background: transparent;
+    border-radius: 50px;
+    border: 1px solid black;
+    font-size: 30px;
+    padding: 10px 70px;
+    position: absolute;
+    bottom: -60px;
+    left: 70px;
+    transition: .8s;
+}
+.buy-btn:hover {
+    background-color: rgb(17, 17, 17);
+    color: white;
+}
+.icon-cart i{
+    color: black;
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(231, 225, 225);
+    border-radius: 50%;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.icon-cart{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    position: absolute;
+    top: 10px;
+    right: -50px;
+    transition: .8s;
+}
+.icon-cart i:hover{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+.card-three:hover .buy-btn {
+    bottom: 30px;
+}
+.card-three:hover .icon-cart {
+    right: 20px;
+}
+.card-three:hover .img-bag-one {
+    opacity: 0;
+}
+.card-three:hover .img-bag-two {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    object-fit: contain;
+    opacity: 1;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip .tooltiptext {
+    
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    right: 105%;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    transition: .3s;
+
+  }
+
+
+  .tooltip .tooltiptext::after {
+    content: " ";
+  position: absolute;
+  top: 50%;
+  left: 100%; /* To the right of the tooltip */
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent transparent black;
+  }
+
+  .card-main-two{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-row-gap: 50px;
+  }
